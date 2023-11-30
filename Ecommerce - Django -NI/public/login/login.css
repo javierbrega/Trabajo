@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ff7f50; /* Color de fondo naranja */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff; /* Fondo blanco para el formulario */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+    text-align: center;
+}
+
+h1 {
+    color: #ff7f50; /* Color naranja para el encabezado */
+}
+
+/* Estilos para los campos del formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%; /* Ancho del campo del 80% */
+    padding: 10px;
+    margin: 10px auto; /* Margen horizontal automático para centrar */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    background-color: #ff7f50; /* Color naranja para el botón */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para los botones de redes sociales */
+.social-buttons {
+    margin-top: 20px; /* Espacio entre el botón de registro y los botones de redes sociales */
+}
+
+.social-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para los logos de redes sociales */
+.social-button img {
+    max-width: 30px; /* Ancho máximo de los logos */
+    vertical-align: middle;
+    margin-right: 5px; /* Espacio entre el logo y el borde del botón */
+    display: inline-block; /* Para alinear verticalmente */
+    margin: 0 auto; /* Para centrar horizontalmente */
+}
+
+/* Estilo para los mensajes de error */
+.error {
+    color: red;
+}
+
